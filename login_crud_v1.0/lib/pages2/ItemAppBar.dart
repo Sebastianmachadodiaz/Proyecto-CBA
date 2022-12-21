@@ -24,7 +24,7 @@ class _ItemAppBarState extends State< ItemAppBar> {
   @override
   Widget build(BuildContext context){
     return Container(
-      color: Colors.white,
+      color: Colors.orange,
       padding: EdgeInsets.symmetric(vertical: 20, horizontal: 25),
       child:  Row(
         children: [
@@ -55,7 +55,7 @@ class _ItemAppBarState extends State< ItemAppBar> {
             },
             child: Icon(
               CupertinoIcons.cart_fill,
-              color: Colors.white,
+              color: Colors.orange,
               size: 32,
             ),
           ),
